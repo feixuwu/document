@@ -8,35 +8,35 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  
  1.open Editor->Project Setting, find EasyAds fill the ad unit:
  
-  ![ScreenShot](docs/call.PNG)
+  ![ScreenShot](img/call.PNG)
   
   
  2.in blueprint editor, when you want show show the ads, just call function "ShowBanner", "ShowInterstitial", "PlayRewardedVideo"
   ShowBanner:
   
-  ![ScreenShot](docs/showbanner.PNG)
+  ![ScreenShot](img/showbanner.PNG)
   
   ShowInterstitial:
   
-  ![ScreenShot](docs/showinterstital.PNG)
+  ![ScreenShot](img/showinterstital.PNG)
   
   PlayRewardedVideo:
   
-  ![ScreenShot](docs/playvideo.PNG)
+  ![ScreenShot](img/playvideo.PNG)
   
  Some times, you want to check if ads aviable, you can call "IsBannerReady", "IsInterstiralAdsReady", "IsRewardedVideoAdsReady"
   
   IsBannerReady:
   
-  ![ScreenShot](docs/checkBaner.PNG)
+  ![ScreenShot](img/checkBaner.PNG)
   
   IsInterstiralAdsReady:
   
-   ![ScreenShot](docs/checkInterstital.PNG)
+   ![ScreenShot](img/checkInterstital.PNG)
    
   IsRewardedVideoAdsReady:
   
-   ![ScreenShot](docs/checkvideo.PNG)
+   ![ScreenShot](img/checkvideo.PNG)
    
    
  # License
