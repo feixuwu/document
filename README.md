@@ -8,7 +8,7 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  
  1.open Editor->Project Setting, find EasyAds fill the ad unit:
  
-  ![ScreenShot](img/call.PNG)
+  ![ScreenShot](img/setting.PNG)
   
   
  2.in blueprint editor, when you want show show the ads, just call function "ShowBanner", "ShowInterstitial", "PlayRewardedVideo"
