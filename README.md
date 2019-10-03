@@ -1,9 +1,19 @@
 # document
 
-This plugin help you easy integrates multiple ad networks(currently only support admob) for your game both Android and IOS same code,
+This plugin help you easy integrates multiple ad networks(admob, unity(4.23only), vungle(4.23only), chartboost(4.23only)) for your game both Android and IOS same code,
 All features are available in C++ and Blueprint. this plugin automatic process ads reload and other detail, so
  you can easy use just call when you need.
  Contact:feixuwu@outlook.com
+ 
+ # AdNetworks
+ Admob
+ 
+ Unity(4.23 or new version)
+ 
+ ChartBoost(4.23 or new version)
+ 
+ Vungle(4.23 or new version)
+ 
  # Get Start(2 step)
  
  Here is a tutorial video 
