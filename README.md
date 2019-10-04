@@ -53,6 +53,27 @@ All features are available in C++ and Blueprint. this plugin automatic process a
   
    ![ScreenShot](img/checkvideo.PNG)
    
+   ## Read debug message to learn why ads load fail:
+   
+  ![ScreenShot](img/debug.PNG)
+  
+  the error number:
+  
+  ### 0 ERROR_CODE_INTERNAL_ERROR
+  
+  Something happened internally; for instance, an invalid response was received from the ad server.
+  
+  ### 1 ERROR_CODE_INVALID_REQUEST
+  
+  The ad request was invalid; for instance, the ad unit ID was incorrect.
+  
+  ### 2 ERROR_CODE_NETWORK_ERROR
+  
+  The ad request was unsuccessful due to network connectivity.
+  
+  ### 3 ERROR_CODE_NO_FILL
+  
+  The ad request was successful, but no ad was returned due to lack of ad inventory.
    
  # License
    free to use, and I will share 2% ads traffic. If your game earn a lot of money from ads, you may want buy the pro version, it will not share any ads traffic.
