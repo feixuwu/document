@@ -55,9 +55,11 @@ All features are available in C++ and Blueprint. this plugin automatic process a
    
    ## Read debug message to learn why ads load fail:
    
+   in level blueprint, on event BeginPlay call this function:
+   
   ![ScreenShot](img/debug.png)
   
-  the error number:
+  from the out debug message, you can find the error number, each number describle a reason:
   
   ### 0 ERROR_CODE_INTERNAL_ERROR
   
