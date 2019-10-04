@@ -55,7 +55,7 @@ All features are available in C++ and Blueprint. this plugin automatic process a
    
    ## Read debug message to learn why ads load fail:
    
-  ![ScreenShot](img/debug.PNG)
+  ![ScreenShot](img/debug.png)
   
   the error number:
   
