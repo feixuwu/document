@@ -3,7 +3,8 @@
 This plugin help you easy integrates multiple ad networks(admob, unity(4.23 or newer), vungle(4.23 or newer), chartboost(4.23 or newer)) for your game both Android and IOS same code,
 All features are available in C++ and Blueprint. this plugin automatic process ads reload and other detail, so
  you can easy use just call when you need.
- There's two version of this plugin in marketplace, the free version have 2% ads traffic share, the pro version have no any ads traffic share.
+ 
+ **There's two version of this plugin in marketplace, the free version have 2% ads traffic share, the pro version have no any ads traffic share.**
  
  Contact:feixuwu@outlook.com
  
@@ -80,5 +81,5 @@ All features are available in C++ and Blueprint. this plugin automatic process a
   The ad request was successful, but no ad was returned due to lack of ad inventory.
    
  # License
-   free version share 2% ads traffic, pro version have no any ads traffic share.
+   **free version share 2% ads traffic, pro version have no any ads traffic share.**
   
