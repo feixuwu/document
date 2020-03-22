@@ -20,7 +20,7 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  # Get Start(2 step)
  
  Here is a tutorial video 
- [![how to use this plugin](https://i.ytimg.com/vi/dRYf_u7S5lk/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLApWQTOHyc-FelbLr2xm8udbqkjdw)](https://youtu.be/dRYf_u7S5lk)
+ [![how to use this plugin](https://i.ytimg.com/vi/dRYf_u7S5lk/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLApWQTOHyc-FelbLr2xm8udbqkjdw)](https://youtu.be/uoAdOpi1wCQ)
  
  ## 1. fill ad unit
    open Editor->Project Setting, find EasyAds fill the ad unit:
