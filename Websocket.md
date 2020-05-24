@@ -28,3 +28,6 @@ This plugin is for unreal engine 4 c++ and blueprint developers, you can easily 
 
    this plugin support wss, it will automatic create ca file, the ca content is an array in WebSocketCA.cpp file.
    
+# tutorial video:
+[![how to use websocket](https://i9.ytimg.com/vi/E3pIdmwvLl0/2.jpg?sqp=CJ-RqPYF&rs=AOn4CLAHWiTYfZQ36sin5qWskhdp7i3NqQ)](https://youtu.be/E3pIdmwvLl0)
+   
