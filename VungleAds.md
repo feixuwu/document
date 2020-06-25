@@ -12,6 +12,11 @@ this plugin help people show vungle ads on Android and IOS. User can use bluepri
 
 
 # Usage
+
+★ Init Vungle
+
+   ![ScreenShot](vungle/init.PNG)
+
 ★ Load Banner By Placement
 
    ![ScreenShot](vungle/loadbanner.PNG)
