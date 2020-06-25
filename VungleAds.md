@@ -42,6 +42,6 @@ this plugin help people show vungle ads on Android and IOS. User can use bluepri
    ![ScreenShot](vungle/showvideo.PNG)
    
 # tutorial video:
-[![how to use vungle ads](https://i9.ytimg.com/vi/gV6cOLWLFLE/mq2.jpg?sqp=CLCTqPYF&rs=AOn4CLBqEmgJSG0j3bo36NLFZ5mqTh7Z5g)](https://youtu.be/gV6cOLWLFLE)
+[![how to use vungle ads](https://i9.ytimg.com/vi/12ybu02uB2g/mq2.jpg?sqp=CLTZ0vcF&rs=AOn4CLDQJsMyJv1Iu0eocwSXLEFPkTY5Xg)](https://youtu.be/12ybu02uB2g)
 
    
