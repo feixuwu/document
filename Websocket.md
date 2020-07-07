@@ -35,10 +35,22 @@ This plugin is for unreal engine 4 c++ and blueprint developers, you can easily 
 Please first check the demo project:[demo projejct](https://drive.google.com/file/d/1iChDYrPc-pqy9hNx1v6IWmksjMnbwDcc/view?usp=sharing)
 
 ★ Connect To Server(C++)
-   1. define a websocket object in your class
+   1. define a websocket object in your class, and event function to bind.
    ```
-      UPROPERTY(BlueprintReadOnly)
-	     UWebSocketBase* mDemoSocket;
+     UFUNCTION()
+     void OnDataReceive(const FString& data);
+
+     UFUNCTION()
+     void OnConnectionClose();
+
+     UFUNCTION()
+     void OnConnectComplete();
+
+     UFUNCTION()
+     void OnConnectError(const FString& strError);
+   
+     UPROPERTY(BlueprintReadOnly)
+     UWebSocketBase* mDemoSocket;
    ```
 
    2. in cpp function, create socket and bind event
