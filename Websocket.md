@@ -104,6 +104,20 @@ Please first check the demo project:[demo projejct](https://drive.google.com/fil
 	mDemoSocket->OnReceiveData.AddDynamic(this, &ADemoGameMode::OnDataReceive);
 }
   ```
+  
+# FAQ
+  ## why the socket stop working after some time?
+    The reason is the websocket object is delete by GC, here is the solution:
+    if u use websocket in c++, please remmber use it as a class member like this:
+    
+```
+    UPROPERTY()
+    UWebSocketBase* mDemoSocket;
+```
+    
+    with UPROPERTY, the object will not free by GC when the owner is not delete.
+    
+    if u use in blueprint, after connect, please save the websocket object as a variable to avoid GC.
      
 # tutorial video:
 [![how to use websocket](https://i9.ytimg.com/vi/E3pIdmwvLl0/mq2.jpg?sqp=CPSikvgF&rs=AOn4CLDjrM5mSKD3TIT1qFW9vCvBeNG4dg)](https://youtu.be/E3pIdmwvLl0)
