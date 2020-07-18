@@ -84,7 +84,27 @@ All features are available in C++ and Blueprint. this plugin automatic process a
   ### 3 ERROR_CODE_NO_FILL
   
   The ad request was successful, but no ad was returned due to lack of ad inventory.
-   
- # License
+
+# FAQ
+ 
+## I bought EasyAds Pro and EasyFirebase Pro both, and use this two plugin in one project, android package success, but ios package fail, how to fix it?
+  this is a problem of plugin conflict in ios, since this two plugin use part of same framework, so to fix it, need to change UBT code.
+  I build 4.24 and 4.25 UBT and upload to google drive, to fix the plugin conflict in ios, download the zip file and unzip it, put the UBT replace the UBT in engine,
+### 4.24:
+ 1.[UBT 4.24](https://drive.google.com/file/d/1hA12ZzBzJJgKZZNspeYTZplanKomNz6_/view?usp=sharing)
+ download and unzip, put the UnrealBuildTool.exe to 
+ UE_4.24\Engine\Binaries\DotNET\
+ 
+ 2.package for ios again,then it will success.
+
+### 4.25:
+1.[UBT 4.25](https://drive.google.com/file/d/1wxWlS-UcAxG03EqC1vPzsjUszov8iCJY/view?usp=sharing)
+download and unzip, put the UnrealBuildTool.exe to 
+UE_4.25\Engine\Binaries\DotNET\
+
+2.package for ios again,then it will success.
+
+
+# License
    **free version share 2% ads traffic, pro version have no any ads traffic share.**
   
