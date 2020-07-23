@@ -106,6 +106,7 @@ Please first check the demo project:[demo projejct](https://drive.google.com/fil
   ```
   
 # FAQ
+  if u have any problem can not fix by yourself, please email me:feixuwu@outlook.com.
   ## why the socket stop working after some time?
     The reason is the websocket object is delete by GC, here is the solution:
     if u use websocket in c++, please remmber use it as a class member like this:
