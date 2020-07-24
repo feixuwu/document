@@ -87,7 +87,9 @@ All features are available in C++ and Blueprint. this plugin automatic process a
   
 # Admob Test Ads
 
-Android: appid:ca-app-pub-3940256099942544~3347511713
+## Android: 
+
+appid:ca-app-pub-3940256099942544~3347511713
 
 banner:ca-app-pub-3940256099942544/6300978111
 
@@ -95,7 +97,9 @@ interstitial:ca-app-pub-3940256099942544/1033173712
 
 rewarded video:ca-app-pub-3940256099942544/5224354917
 
-IOS: appid:ca-app-pub-3940256099942544~1458002511
+## IOS: 
+
+appid:ca-app-pub-3940256099942544~1458002511
 
 banner:ca-app-pub-3940256099942544/2934735716
 
