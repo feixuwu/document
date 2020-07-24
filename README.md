@@ -84,6 +84,24 @@ All features are available in C++ and Blueprint. this plugin automatic process a
   ### 3 ERROR_CODE_NO_FILL
   
   The ad request was successful, but no ad was returned due to lack of ad inventory.
+  
+# Admob Test Ads
+
+Android: appid:ca-app-pub-3940256099942544~3347511713
+
+banner:ca-app-pub-3940256099942544/6300978111
+
+interstitial:ca-app-pub-3940256099942544/1033173712
+
+rewarded video:ca-app-pub-3940256099942544/5224354917
+
+IOS: appid:ca-app-pub-3940256099942544~1458002511
+
+banner:ca-app-pub-3940256099942544/2934735716
+
+interstitial:ca-app-pub-3940256099942544/4411468910
+
+rewarded video:ca-app-pub-3940256099942544/1712485313
 
 # FAQ
  
