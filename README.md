@@ -238,6 +238,4 @@ UE_4.25\Engine\Binaries\DotNET\
 2.package for ios again,then it will success.
 
 
-# License
-   **free version share 2% ads traffic, pro version have no any ads traffic share.**
   
