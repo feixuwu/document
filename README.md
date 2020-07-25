@@ -8,6 +8,117 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  
  Contact:feixuwu@outlook.com
  
+ 
+ # 4.25.2 Engine Bugs
+ 
+ ## quick fix
+ if u upgrade engine to 4.25.2, will find the plugin in marketplace can not package.
+ to fix it, u can direct download the [UnrealBuildTool.exe](https://1drv.ms/u/s!AvGg_PJlsZnwgbskiCbsqeKZin1nsg?e=qpGUJk) and replace it under UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe.
+ 
+ ## fix UBT by yourself
+ the problem is the UnrealBuildTool problem, if u don't want to use my UnrealBuildTool.exe, u can build by yourself, here is the fix instructions:
+ 
+ ## 1.open the source file
+   open the file: UE_4.25\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs
+   
+ ## 2.find the function 
+   find the function:
+   ```
+   private static bool RequiresCompilation(HashSet<FileReference> SourceFiles, FileReference AssemblyManifestFilePath, FileReference OutputAssemblyPath)
+   ```
+ ## 3.replace the function body with the code:
+   ```
+   // Check to see if we already have a compiled assembly file on disk
+   FileItem OutputAssemblyInfo = FileItem.GetItemByFileReference(OutputAssemblyPath);
+   if (!OutputAssemblyInfo.Exists)
+   {
+       Log.TraceLog("Compiling {0}: Assembly does not exist", OutputAssemblyPath);
+       return true;
+   }
+
+   // Check the time stamp of the UnrealBuildTool.exe file.  If Unreal Build Tool was compiled more
+   // recently than the dynamically-compiled assembly, then we'll always recompile it.  This is
+   // because Unreal Build Tool's code may have changed in such a way that invalidate these
+   // previously-compiled assembly files.
+   FileItem ExecutableItem = FileItem.GetItemByFileReference(UnrealBuildTool.GetUBTPath());
+   if (ExecutableItem.LastWriteTimeUtc > OutputAssemblyInfo.LastWriteTimeUtc)
+   {
+       Log.TraceLog("Compiling {0}: {1} is newer", OutputAssemblyPath, ExecutableItem.Name);
+       return true;
+   }
+
+
+   // Make sure we have a manifest of source files used to compile the output assembly.  If it doesn't exist
+   // for some reason (not an expected case) then we'll need to recompile.
+   FileItem AssemblySourceListFile = FileItem.GetItemByFileReference(AssemblyManifestFilePath);
+   if (!AssemblySourceListFile.Exists)
+   {
+       Log.TraceLog("Compiling {0}: Missing source file list ({1})", OutputAssemblyPath, AssemblyManifestFilePath);
+       return true;
+   }
+
+   JsonObject Manifest = JsonObject.Read(AssemblyManifestFilePath);
+
+   // check if the engine version is different
+   string EngineVersionManifest = Manifest.GetStringField("EngineVersion");
+   string EngineVersionCurrent = FormatVersionNumber(ReadOnlyBuildVersion.Current);
+   if (EngineVersionManifest != EngineVersionCurrent)
+   {
+       Log.TraceLog("Compiling {0}: Engine Version changed from {1} to {2}", OutputAssemblyPath, EngineVersionManifest, EngineVersionCurrent);
+       return true;
+   }
+
+
+   // Make sure the source files we're compiling are the same as the source files that were compiled
+   // for the assembly that we want to load
+   HashSet<FileItem> CurrentSourceFileItems = new HashSet<FileItem>();
+   foreach (string Line in Manifest.GetStringArrayField("SourceFiles"))
+   {
+       CurrentSourceFileItems.Add(FileItem.GetItemByPath(Line));
+   }
+
+   // Get the new source files
+   HashSet<FileItem> SourceFileItems = new HashSet<FileItem>();
+   foreach (FileReference SourceFile in SourceFiles)
+   {
+       SourceFileItems.Add(FileItem.GetItemByFileReference(SourceFile));
+   }
+
+   // Check if there are any differences between the sets
+   foreach (FileItem CurrentSourceFileItem in CurrentSourceFileItems)
+   {
+       if (!SourceFileItems.Contains(CurrentSourceFileItem))
+       {
+           Log.TraceLog("Compiling {0}: Removed source file ({1})", OutputAssemblyPath, CurrentSourceFileItem);
+           return true;
+       }
+   }
+   foreach (FileItem SourceFileItem in SourceFileItems)
+   {
+       if (!CurrentSourceFileItems.Contains(SourceFileItem))
+       {
+           Log.TraceLog("Compiling {0}: Added source file ({1})", OutputAssemblyPath, SourceFileItem);
+           return true;
+       }
+   }
+
+   // Check if any of the timestamps are newer
+   foreach (FileItem SourceFileItem in SourceFileItems)
+   {
+       if (SourceFileItem.LastWriteTimeUtc > OutputAssemblyInfo.LastWriteTimeUtc)
+       {
+           Log.TraceLog("Compiling {0}: {1} is newer", OutputAssemblyPath, SourceFileItem);
+           return true;
+       }
+   }
+
+   return false;
+   ```
+   
+ ## 4. build the UnrealBuildTool
+   after build the ubt, the problem will fixed.
+   
+ 
  # AdNetworks
  Admob
  
