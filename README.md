@@ -131,12 +131,12 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  # New Feature:Custom Load and Custom Show(Pro only)
    the EasyAds Pro allow the users to load and show ads wtih custom ad unit in code. this means you can use as many ad unit as you can,
  you are not limited can only use a single interstitial and a single rewarded video.
- here is the tutorial video:  [![tutotial video](https://i9.ytimg.com/vi/vI-uF5lHc64/mq2.jpg?sqp=CMGGuPQF&rs=AOn4CLA_luwU7Yu1ml9RuBCHTIsEQoG8QQ)](https://youtu.be/vI-uF5lHc64)
+ here is the tutorial video:  [tutotial video](https://youtu.be/vI-uF5lHc64)
  
  # Get Start(2 step)
  
  Here is a tutorial video 
- [![how to use this plugin](https://i9.ytimg.com/vi/uoAdOpi1wCQ/mq2.jpg?sqp=COWCuPQF&rs=AOn4CLCl0FDi22YcRvuEfQVZtjW6gQjGsQ)](https://youtu.be/uoAdOpi1wCQ)
+ [how to use this plugin](https://youtu.be/uoAdOpi1wCQ)
  
  ## 1. fill ad unit
    open Editor->Project Setting, find EasyAds fill the ad unit:
