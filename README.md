@@ -17,6 +17,10 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  Vungle(4.23 or new version)
  
  # New Feature:Custom Load and Custom Show(Pro only)
+  
+  **I suggest all users use custom load/show api to show your ads. By default the plugin will automatic load your ads with adunit which you filled in project setting.
+  if every time when game startup, plugin automatic load ads, but player not triiger ads show, google may think this is illegal traffic. To avoid this, you can use custom load and custom show ads api to load ads when need and show ads when need.**
+  
    the EasyAds Pro allow the users to load and show ads wtih custom ad unit in code. this means you can use as many ad unit as you can,
  you are not limited can only use a single interstitial and a single rewarded video.
  here is the tutorial video:  [tutotial video](https://youtu.be/vI-uF5lHc64)
