@@ -16,6 +16,15 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  
  Vungle(4.23 or new version)
  
+ # New Feature:GDPR Support
+ 
+ if you try to support gdpr, 
+ you can only use custom load/show ads api.
+ 
+ more detail document will need some time, here is the example project:
+ https://1drv.ms/u/s!AvGg_PJlsZnwgbtBuiu3eY39fJrepA?e=1f8XNR
+ 
+ 
  # New Feature:Custom Load and Custom Show(Pro only)
   
   **I suggest all users use custom load/show api to show your ads in product. By default the plugin will automatic load your ads with adunit which you filled in project setting.
