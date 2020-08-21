@@ -18,7 +18,6 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  
  # New Feature:GDPR Support
 
- ## How To
  if you try to support gdpr, 
  you can only use custom load/show ads api.
  
