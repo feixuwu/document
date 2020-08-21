@@ -18,6 +18,9 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  
  # New Feature:GDPR Support
  
+ know bug: 
+   4.25 ios package will crash when app start, to fix it:**copy the plugin from UE_4.25/Engine/Plugins/Marketplace/EasyAdsPro to project/Plugins/**. this problem will be fix in next few days.
+ 
  if you try to support gdpr, 
  you can only use custom load/show ads api.
  
