@@ -19,7 +19,7 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  # New Feature:GDPR Support
 
  if you try to support gdpr, 
- you can only use custom load/show ads api.
+ you can only use custom load/show ads api and admob(no other ad network).
  
  more detail document will need some time, here is the example project:
  https://1drv.ms/u/s!AvGg_PJlsZnwgbtBuiu3eY39fJrepA?e=1f8XNR
