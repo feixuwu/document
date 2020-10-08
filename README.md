@@ -16,6 +16,10 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  
  Vungle(4.23 or new version)
  
+ Applovin
+ 
+ Facebook Audience
+ 
  # New Feature:GDPR Support
 
  if you try to support gdpr, 
@@ -119,6 +123,13 @@ interstitial:ca-app-pub-3940256099942544/4411468910
 
 rewarded video:ca-app-pub-3940256099942544/1712485313
 
+# Roadmap
 
+## GDPR(all ad networks)
 
+the full support of gdpr(unity,chartbooost,vungle,Applovin,Facebook Audience) is in progress, I expect will finish this work in October.
+
+## Multiple test device
+
+this feature will be add in the version of gdpr full support.
   
