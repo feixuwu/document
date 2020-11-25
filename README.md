@@ -131,6 +131,10 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
 
 # Roadmap
 
+## IOS 14 support
+
+will supported this weekend(11/30/2020).
+
 ## Multiple test device
 
 this feature will be add in next update.
