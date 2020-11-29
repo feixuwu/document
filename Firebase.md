@@ -34,6 +34,14 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
 # firebase realtime database tutorial:
 [![how to use firebase realtime database](https://i.ytimg.com/vi/5aQ6J3tj3CU/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLApWT56tCHFuqmGY3cH3G6W9PL1Ww)](https://youtu.be/5aQ6J3tj3CU)
 
+# RoadMap
+
+## crashlytics
+  will finished before 2020/12/20
+  
+## upgrade sdk to 6.16.1 
+  will finished before 2020/12/20
+
 # FAQ
 ## why my valueListener/ChildLister stop working after some time?
  the reason is your databaseref GC by the system, so to avoid this, u need save the databaseref node to a variable,
