@@ -123,6 +123,19 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
 
 # Release Notes
 
+## 1.18.2
+  add new api:IsAdmobInitlized, do remember call any plugin function after IsAdmobInitlized return true, this is useful when game startup to do gdpr request(RequestConsentInfoUpdate), if admob is not initlized, call RequestConsentInfoUpdate will fail.
+
+## 1.18.1
+ ### ios 14 support
+ 
+ to package with ios14 support, you need first copy the plugin from UE_4.2x\Engine\Plugins\Marketplace to your project,
+ and uncomment //PublicDefinitions.Add("WITH_IOS14_SUPPORT=1");
+ 
+ ### multiple test devices
+ 
+ support multile test device, you can add as many test devices as you can in plugin setting.
+
 ## 1.17.3(2020/11/23)
 
 1. full gdpr suppor, SetConsentStatus will set all ad networks consent status.
@@ -131,11 +144,6 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
 
 # Roadmap
 
-## IOS 14 support
-
-will supported this weekend(11/30/2020).
-
-## Multiple test device
-
-this feature will be add in next update.
+## upgrade android sdk to latest
+  will finished this works before 2020/12/14
   
