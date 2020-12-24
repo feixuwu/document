@@ -131,6 +131,7 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
  
  to package with ios14 support, you need first copy the plugin from UE_4.2x\Engine\Plugins\Marketplace to your project,
  and uncomment //PublicDefinitions.Add("WITH_IOS14_SUPPORT=1");
+ after repackage the game, when the game startup on ios14 device, it will popup a dialog to ask tracking permission.
  
  ### multiple test devices
  
