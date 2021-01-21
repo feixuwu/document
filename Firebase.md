@@ -43,6 +43,11 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
   have submitted to marketplace.
 
 # FAQ
+
+## why I package fail with 4.26 for android
+  here is the solution, login firebase console and create an realtime database, download the google-service.json,put it under Project/Content/google,
+  the package should success.
+
 ## why my valueListener/ChildLister stop working after some time?
  the reason is your databaseref GC by the system, so to avoid this, u need save the databaseref node to a variable,
  after save as a variable, the databaseref node will not GC by system, then the valueListener/ChildListener will works as u expect.
