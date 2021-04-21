@@ -37,7 +37,7 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
 # RoadMap
 
 ## custom crashlytics
- will add this feature in May 2021.
+ will add this feature in May 2021. here is the official document for android https://firebase.google.com/docs/crashlytics/customize-crash-reports?platform=android
 
 # FAQ
 
