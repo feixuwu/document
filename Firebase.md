@@ -36,11 +36,8 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
 
 # RoadMap
 
-## crashlytics
-  have submitted to marketplace, tutorial video will be upload before 2020/12/20
-  
-## upgrade sdk to 6.16.1 
-  have submitted to marketplace.
+## custom crashlytics
+ will add this feature in May 2021.
 
 # FAQ
 
