@@ -146,6 +146,11 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
 # Roadmap
 
 ##  replace "Personalized Ad Consent SDK" with "User Messaging Platform"
-  this feature will finish in May 2021.
+  this feature will finish in june 2021.
   here is the google official document https://developers.google.com/admob/ump/android/quick-start
+
+## add support for new ads
+ ### app open ads 
+ ### native advanced ads
+ this feature will finish before july 2021.
   
