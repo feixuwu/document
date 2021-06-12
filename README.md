@@ -129,6 +129,22 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
  UMPRequestConsentInfoUpdate this function should be call when game startup, this function ask user consent.
  UMPResetConsentInformation this function used to reset consent information.
  
+ to use user messaging platform, here is the instruction:
+ 
+ ### configure
+ please read the section "Prerequisites" of the document https://developers.google.com/admob/ump/android/quick-start
+ 
+ ### simulate in EEA or not EEA
+ please upgrade plugin to 1.19.0 or later version, open game with UE4 editor, in project setting, you can simulate EEA or not EEA.
+ 
+ ### ask consent in game startup
+ 
+ call UMPRequestConsentInfoUpdate to ask player consent.
+ 
+ 
+ ### add an option to let player reset consent(optional)
+ 
+ 
 
 ## 1.18.2
   add new api:IsAdmobInitlized, do remember call any plugin function after IsAdmobInitlized return true, this is useful when game startup to do gdpr request(RequestConsentInfoUpdate), if admob is not initlized, call RequestConsentInfoUpdate will fail.
