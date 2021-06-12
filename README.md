@@ -123,6 +123,13 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
 
 # Release Notes
 
+## 1.19.0
+ add admob user messaging platform to support gdpr. for compatible reason, the old consend sdk still works.
+ add two new api:
+ UMPRequestConsentInfoUpdate this function should be call when game startup, this function ask user consent.
+ UMPResetConsentInformation this function used to reset consent information.
+ 
+
 ## 1.18.2
   add new api:IsAdmobInitlized, do remember call any plugin function after IsAdmobInitlized return true, this is useful when game startup to do gdpr request(RequestConsentInfoUpdate), if admob is not initlized, call RequestConsentInfoUpdate will fail.
 
@@ -144,10 +151,6 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
 2. fix 4.24 android WRITE_EXTERNAL_STORAGE permission problem, which caused by vungle.
 
 # Roadmap
-
-##  replace "Personalized Ad Consent SDK" with "User Messaging Platform"
-  here is the google official document https://developers.google.com/admob/ump/android/quick-start
-  this feature is almost complete, will release in next week(13/06/2021).
 
 ## add support for new ads
  ### app open ads 
