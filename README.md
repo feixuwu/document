@@ -130,22 +130,22 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
  UMPResetConsentInformation this function used to reset consent information.
  
  to use user messaging platform, here is the instruction:
- 
- ### configure
+ ### (1).configure
  please read the section "Prerequisites" of the document https://developers.google.com/admob/ump/android/quick-start
  
- ### simulate in EEA or not EEA
+ ### (2)simulate in EEA or not EEA
  please upgrade plugin to 1.19.0 or later version, open game with UE4 editor, in project setting, you can simulate EEA or not EEA.
  ![ScreenShot](img/simulate_eea.PNG)
  
- ### ask consent in game startup
- 
+ ### (3)ask consent in game startup
  call UMPRequestConsentInfoUpdate to ask player consent.
+ 
  ![ScreenShot](img/ask_ump_consent.PNG)
  
- ### add an option to let player reset consent(optional)
- call UMPResetConsentInformation
+ ### (4)add an option to let player reset consent(optional)
+ call UMPResetConsentInformation.
  
+ ![ScreenShot](img/reset_consent.PNG)
  
 
 ## 1.18.2
