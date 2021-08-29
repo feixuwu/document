@@ -122,7 +122,7 @@ interstitial:ca-app-pub-3940256099942544/4411468910
 rewarded video:ca-app-pub-3940256099942544/1712485313
 
 # Release Notes
-## 1.20.0
+## 1.20.0(for 4.26 and 4.27)
   ### sdk update
    
     admob upgrade to android 20.3 and IOS 8.9.0.
