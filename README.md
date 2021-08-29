@@ -122,7 +122,14 @@ interstitial:ca-app-pub-3940256099942544/4411468910
 rewarded video:ca-app-pub-3940256099942544/1712485313
 
 # Release Notes
-
+## 1.20.0
+  ### sdk update
+   
+    admob upgrade to android 20.3 and IOS 8.9.0.
+ 
+  ### IOS bitcode support
+    
+    package for ios now support bitcode.
 ## 1.19.0
  add admob user messaging platform to support gdpr. for compatible reason, the old consend sdk still works.
  add two new api:
