@@ -122,6 +122,12 @@ interstitial:ca-app-pub-3940256099942544/4411468910
 rewarded video:ca-app-pub-3940256099942544/1712485313
 
 # Release Notes
+## 1.20.2(for 4.26 and 4.27)
+   fix bug:in some rare case, after custom ads play finish, OnClose event not be fire.
+
+## 1.20.1(for 4.26 and 4.27)
+   remove android unused billing sdk.
+
 ## 1.20.0(for 4.26 and 4.27)
   ### sdk update
    
