@@ -34,6 +34,15 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
 # firebase realtime database tutorial:
 [![how to use firebase realtime database](https://i.ytimg.com/vi/5aQ6J3tj3CU/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLApWT56tCHFuqmGY3cH3G6W9PL1Ww)](https://youtu.be/5aQ6J3tj3CU)
 
+
+# Release note
+
+## 1.9.2
+ fix android univeral abb package problem.
+
+## 1.9.0
+ upgrade firebase cpp sdk to 8.4.0.
+
 # RoadMap
 
 ## custom crashlytics
