@@ -37,6 +37,10 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
 
 # Release note
 
+## 1.9.6
+  add blueprint transaction support, you can direct call RunTransaction on FirebaseDatabaseRef.
+  here is an example:![ScreenShot](img/trasaction.PNG)
+
 ## 1.9.2
  fix android univeral abb package problem.
 
