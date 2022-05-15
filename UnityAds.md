@@ -49,6 +49,14 @@ banner placement: banner
 interstitial placement:interstitial
 
 video:rewardedVideo
+
+# IOS 14 support
+
+to package with ios14 support, you need first copy the plugin from UE_4.2x\Engine\Plugins\Marketplace to your project, and uncomment //PublicDefinitions.Add("WITH_IOS14_SUPPORT=1"); after repackage the game, when the game startup on ios14 device, it will popup a dialog to ask tracking permission.
+
+# GDPR support
+
+Call SetUnityConsent to set the consent state, developer can create a umg dialog to let player choose consent status.
     
    
 # tutorial video:
