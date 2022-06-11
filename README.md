@@ -161,6 +161,53 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
  ![ScreenShot](img/reset_consent.PNG)
  
 
+## 1.24.0
+1.add new ad networks: adcolony, ironsource, inmobi, tapjoy, i-mobile, 
+2.add more package check help debug package error.
+3.support disable ad networks on ios.
+
+## 1.23.1
+upgrade admob sdk to 20.6(android) and 9.4, add consent status query api:IsAdNetworkConsent
+
+## 1.20.8
+add more admob family policy api
+
+## 1.20.5
+add bitcode support for ios.
+
+## 1.20.3
+compatble with latest easyfirebase pro.
+
+## 1.20.2(4.26and 4.27)
+fix bug: in some rare case, custom ads close callback not fire
+
+## 1.20.1(4.26 and4.27), 1.19.3(4.25)
+remove billing 2.0 from plugin.
+
+## 1.20.0(4.26 and 4.26)
+1.upgrad admob sdk to latest:android 20.3, ios:8.9.0.
+
+## 1.9.1
+fix ios package error when enable ios 14 support
+
+## 1.19.0
+support admob new "user messaging platform" for GDPR
+
+## 1.18.10
+fix Unity adapter crash problem.
+
+## 1.18.8
+automatic process conflict with OnlineSubsystemFacebook
+
+## 1.18.7:
+add ios NSUserTrackingUsageDescription localization support.
+
+## 1.18.4
+fix android upload abb error:"Your App Bundle package targets the following unknown languages: fb"
+
+## 1.18.3
+upgrade android sdk
+
 ## 1.18.2
   add new api:IsAdmobInitlized, do remember call any plugin function after IsAdmobInitlized return true, this is useful when game startup to do gdpr request(RequestConsentInfoUpdate), if admob is not initlized, call RequestConsentInfoUpdate will fail.
 
