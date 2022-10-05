@@ -42,21 +42,21 @@ this plugin help people show unity ads on Android and IOS. User can use blueprin
 
 appid:3032713
 
-banner placement: banner
+banner placement: Android_Banner
 
-interstitial placement:interstitial
+interstitial placement:Android_Interstitial
 
-video:rewardedVideo
+video:Android_Rewarded
 
 
 ## ios
 appid:3032712
 
-banner placement: banner
+banner placement: iOS_Banner
 
-interstitial placement:interstitial
+interstitial placement:iOS_Interstitial
 
-video:rewardedVideo
+video:iOS_Rewarded
 
 # IOS 14 support
 
