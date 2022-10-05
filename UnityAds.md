@@ -20,9 +20,17 @@ this plugin help people show unity ads on Android and IOS. User can use blueprin
 
    ![ScreenShot](unity/showbanner.PNG)
    
+★ Load Interstitial By Placement
+
+   ![ScreenShot](unity/loadinterstitial.png)
+   
 ★ Show Interstitial By Placement
 
    ![ScreenShot](unity/showInterstitial.PNG)
+
+★ Load RewardedVideo By Placement
+
+   ![ScreenShot](unity/loadvideo.png)
    
 ★ Show RewardedVideo By Placement
 
