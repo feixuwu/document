@@ -54,6 +54,10 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
 
 # FAQ
 
+## I got error when try upload release symbol for Crashlytics
+  here is the solution, before run "gradlew.bat app:uploadCrashlyticsSymbolFileRelease", run "gradlew.bat app:processReleaseGoogleServices" first,
+  it will fix the problem.
+
 ## why I package fail with 4.26 for android
   here is the solution, login firebase console and create an realtime database, download the google-service.json,put it under Project/Content/google,
   the package should success.
