@@ -54,6 +54,10 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
 
 # FAQ
 
+## Realtime database GetValue sometimes get old value
+  to fix it, before u call GetValue, u need first call SetKeepSynchronized(true), then u will always get latest value.
+  ![ScreenShot](img/get_latest_value.png)
+
 ## I got error when try upload release symbol for Crashlytics
   here is the solution, before run "gradlew.bat app:uploadCrashlyticsSymbolFileRelease", run "gradlew.bat app:processReleaseGoogleServices" first,
   it will fix the problem.
