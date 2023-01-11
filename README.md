@@ -228,10 +228,7 @@ upgrade android sdk
 
 2. fix 4.24 android WRITE_EXTERNAL_STORAGE permission problem, which caused by vungle.
 
-# Roadmap
+#FAQ
 
-## add support for new ads
- ### app open ads 
- ### native advanced ads
- this feature will finish before july 2021.
+ todo
   
