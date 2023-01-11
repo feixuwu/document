@@ -228,7 +228,7 @@ upgrade android sdk
 
 2. fix 4.24 android WRITE_EXTERNAL_STORAGE permission problem, which caused by vungle.
 
-#FAQ
+## FAQ
 
  todo
   
