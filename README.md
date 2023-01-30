@@ -230,5 +230,9 @@ upgrade android sdk
 
 ## FAQ
 
- todo
-  
+ ### how to remove WRITE_EXTERNAL_STORAGE permission?
+   
+   1.upgrade plugin to latest 1.25.3
+   
+   2.set package for distribution and enable this option:
+     ![ScreenShot](img/write_permission.png)
