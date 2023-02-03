@@ -122,6 +122,25 @@ interstitial:ca-app-pub-3940256099942544/4411468910
 rewarded video:ca-app-pub-3940256099942544/1712485313
 
 # Release Notes
+
+## 1.25.3
+remove WRITE_EXTERNAL_STORAGE from plugin.
+
+## 1.24.0
+add new ad networks: adcolony, ironsource, inmobi, tapjoy, i-mobile, and more package check help debug package error.
+
+## 1.23.1
+upgrade admob sdk to 20.6(android) and 9.4, add consent status query api:IsAdNetworkConsent
+
+## 1.20.8
+add more admob family policy api
+
+## 1.20.5
+add bitcode support for ios.
+
+## 1.20.3
+compatble with latest easyfirebase pro.
+
 ## 1.20.2(for 4.26 and 4.27)
    fix bug:in some rare case, after custom ads play finish, OnClose event not be fire.
 
