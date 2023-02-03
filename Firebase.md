@@ -36,16 +36,27 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
 
 
 # Release note
+## 1.10.00
+ upgrade firebase cpp sdk to 10.3.0, remove WRITE_EXTERNAL_STORAGE from plugin.
 
 ## 1.9.6
   add blueprint transaction support, you can direct call RunTransaction on FirebaseDatabaseRef.
   here is an example:![ScreenShot](img/trasaction.PNG)
+  
+## 1.9.5
+fix bug:in some case, game center login will cause crash.
+
+## 1.9.3
+support bitcode for ios.
 
 ## 1.9.2
  fix android univeral abb package problem.
 
 ## 1.9.0
  upgrade firebase cpp sdk to 8.4.0.
+ 
+## 1.8.7
+fix google play login crash.
 
 # RoadMap
 
