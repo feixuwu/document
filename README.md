@@ -250,7 +250,7 @@ upgrade android sdk
 ## FAQ
  ### how to fix ios package error "IOS AdditionalShippingLinkerFlags must add -rpath /usr/lib/swift, else will crash at startup"
    
-   please open project setting add link flags like this
+   please open project setting add link flags "-rpath /usr/lib/swift"
    
    ![ScreenShot](img/ios_link.png)
 
