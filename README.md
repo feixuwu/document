@@ -248,6 +248,11 @@ upgrade android sdk
 2. fix 4.24 android WRITE_EXTERNAL_STORAGE permission problem, which caused by vungle.
 
 ## FAQ
+ ### how to fix ios package error "IOS AdditionalShippingLinkerFlags must add -rpath /usr/lib/swift, else will crash at startup"
+   
+   please open project setting add link flags like this
+   
+   ![ScreenShot](img/ios_link.png)
 
  ### how to remove WRITE_EXTERNAL_STORAGE permission?
    
