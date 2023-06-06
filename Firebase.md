@@ -65,6 +65,25 @@ fix google play login crash.
 
 # FAQ
 
+## get facebook user photo?
+since meta change their policy of get user photo, now, with firebase User, u can call photo_url() to get the url, but u can not get the user photo with this url, let's call
+this url old url, u need combine a new url which can get the real user photo:
+
+new url = "old url" + height=500&access_token=token, u can get the token from RequestFacebookCredential call back,
+
+with the new url, u can request it and get the user's photo.
+
+
+## apple login?
+  ### for engine >=5.1 and plugin >=1.10.7()
+  please first check your plugin version and engine version, if your engine is 5.1 or more newer than 5.1, and plugin is 1.10.7 or more newer, then the 
+  apple login is default enabled, u don't need to do anything, the project can use apple login. please do remember the condition:(engine >=5.1 and plugin >=1.10.7).
+  
+  ## for other situation
+  if not passed the preview condition, u need watch the apple login tutoria [video](https://youtu.be/QFqad0RZb4Q)
+  and do what the video told u do,finaly u need edit the Plugins/EasyFirebasePro/Source/EasyFirebase/EasyFirebase.Build.cs, uncomment the line PublicDefinitions.Add("WITH_APPLE_LOGIN=1");
+  after done all of this, the project can use applog login now.
+
 ## Realtime database GetValue sometimes get old value
   to fix it, before u call GetValue, u need first call SetKeepSynchronized(true), then u will always get latest value.
   ![ScreenShot](img/get_latest_value.png)
