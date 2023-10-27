@@ -248,13 +248,23 @@ upgrade android sdk
 2. fix 4.24 android WRITE_EXTERNAL_STORAGE permission problem, which caused by vungle.
 
 ## FAQ
- ### how to fix ios package error "IOS AdditionalShippingLinkerFlags must add -rpath /usr/lib/swift, else will crash at startup"
+ ### (1)when I package for IOS, it have link error about XXConsent, how to fix it?
+ 
+  #### the reason: if you use the plugin as engine plugin, for ios platform, it does not support disable ad networks. if you do want disable ad networks for ios, you need copy the plugin to your project as project plugin. 
+  
+  please check if u have disable some ad networks in plugin setting for ios, to fix it, there's two solutions,
+  
+  1.enable the disabled ad networks.
+  
+  2.copy the plugin to project, use it as project plugins.
+
+ ### (2)how to fix ios package error "IOS AdditionalShippingLinkerFlags must add -rpath /usr/lib/swift, else will crash at startup"
    
    please open project setting add link flags "-rpath /usr/lib/swift"
    
    ![ScreenShot](img/ios_link.png)
 
- ### how to remove WRITE_EXTERNAL_STORAGE permission?
+ ### (3)how to remove WRITE_EXTERNAL_STORAGE permission?
    
    1.upgrade plugin to latest 1.25.3
    
