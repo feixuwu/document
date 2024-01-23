@@ -23,8 +23,8 @@ All features are available in C++ and Blueprint. this plugin automatic process a
  # New Feature:GDPR Support
 
  full gdpr support, use SetConsentStatus api, you can set all ad networks support GDPR.
- more detail document will need some time, here is the example project:
- https://1drv.ms/u/s!AvGg_PJlsZnwgbtBuiu3eY39fJrepA?e=1f8XNR
+ more detail document will need some time, here is the [example project](https://1drv.ms/u/s!AvGg_PJlsZnwgctyzMArQcyft3k2Og?e=4MkZbc)
+
  
  
  # New Feature:Custom Load and Custom Show(Pro only)
