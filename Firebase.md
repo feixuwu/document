@@ -36,6 +36,9 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
 
 
 # Release note
+## 1.16.0
+ upgrade firebase cpp sdk to 12.8.0
+
 ## 1.10.00
  upgrade firebase cpp sdk to 10.3.0, remove WRITE_EXTERNAL_STORAGE from plugin.
 
