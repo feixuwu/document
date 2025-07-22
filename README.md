@@ -123,6 +123,9 @@ rewarded video:ca-app-pub-3940256099942544/1712485313
 
 # Release Notes
 
+## 1.33.0
+upgrade android admob sdk to 24.4.0(lastest), IOS admob sdk to 12.6
+
 ## 1.28.1(engine version >= UE5.2 support)
 upgrade admob sdk and mediation sdk, android admob sdk upgrade to 22.5, ios admob sdk upgrade to 10.14.0 
 
