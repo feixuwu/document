@@ -8,6 +8,9 @@ this is a firebase basic plugin for unreal engine 4 mobile developer, both c++ a
  befor use this plugin, u need first initlize firebase in level begineplay
  ![ScreenShot](img/initlize.PNG)
 
+ ## initlize fail if windows user name has accent?
+ if your windows user name contains accent characters, the firebase cpp sdk persistence storage engine can fail with 'Failed to initialize persistence storage engine at path' or 'PATH/LOCK: The specified path was not found'. to fix it, use a firebase persistence path that only contains ascii characters, for example move the project to a path without accent characters or set the persistence directory to an ascii-only location.
+
  ## anonymously login
  for guest user, we can use anonymously login:
  ![ScreenShot](img/anonymously.PNG)
